@@ -161,12 +161,20 @@ cython_debug/
 
 *.html
 *.json
-*.txt
+!*Schema.json
 HFTorrent/scripts/env/*
-!*/requirements.txt
 *.csv
 HFTorrent/repos/*
 !schema.json
 */json
 */repos
 !.markdownlint.json
+*.txt
+!requirements.txt
+*/repos
+ptm_torrent/modelhub/repos
+ptm_torrent/modelzoo/repos
+ptm_torrent/modelzoo/json
+ptm_torrent/modelhub/json
+ptm_torrent/onnx/repos
+ptm_torrent/onnx/json
